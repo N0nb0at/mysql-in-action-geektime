@@ -26,7 +26,7 @@ InnoDB 为每个事务构造了一个数组，用来保存这个事务启动瞬�
 
 而数据版本的可见性规则，就是基于数据的 `row trx_id` 和这个一致性视图的对比结果得到的。
 
-![数据版本一致性规则](../data-version-visibility-rules.png)
+![数据版本一致性规则](resource/data-version-visibility-rules.png)
 
 这个视图数组把所有的 `row trx_id` 分成了几种不同的情况：
 
