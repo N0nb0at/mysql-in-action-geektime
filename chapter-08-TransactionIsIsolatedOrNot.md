@@ -1,5 +1,5 @@
 ---
-title: 事务到底是隔离的还是不隔离的？
+title: MySQL-08-事务到底是隔离的还是不隔离的？
 date: 2019/04/08 06:59:11
 categories: 
   - [study]
@@ -7,8 +7,6 @@ tags:
   - [geektime]
   - [MySQL]
 ---
-
-# 事务到底是隔离的还是不隔离的？
 
 事务的启动时机：`begin/start transaction` 命令并不是一个事务的起点，在执行到他们之后的第一个操作 InnoDB 表的语句，事务才真正启动。如果想要马上启动一个事务，可以使用 `start transaction with consistent snapshot` 这个命令。
 

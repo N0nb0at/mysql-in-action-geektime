@@ -1,5 +1,5 @@
 ---
-title: 深入浅出索引（下）
+title: MySQL-05-深入浅出索引（下）
 date: 2019/04/02 08:54:54
 categories: 
   - [study]
@@ -7,8 +7,6 @@ tags:
   - [geektime]
   - [MySQL]
 ---
-
-# 深入浅出索引（下）
 
 回到主键索引树搜索的过程，称为回表。
 
