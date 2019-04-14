@@ -18,7 +18,7 @@ tags:
 
 连接器负责根客户端建立连接、获取权限、维持和管理链接：
 
-``` MySQL
+``` bash
 mysql -h$ip -P$port -u$user -p
 ```
 
