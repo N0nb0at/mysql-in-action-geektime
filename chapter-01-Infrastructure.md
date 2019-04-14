@@ -1,3 +1,13 @@
+---
+title: 基础架构：一条SQL查询语句是如何执行的？
+date: 2019/04/02 07:32:51
+categories: 
+  - [study]
+tags: 
+  - [geektime]
+  - [MySQL]
+---
+
 #  基础架构：一条SQL查询语句是如何执行的？
 
 ![MySQL 逻辑架构图](resource/MySQL-architectural-sketch.png)
