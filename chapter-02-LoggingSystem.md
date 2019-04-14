@@ -1,6 +1,6 @@
 ---
 title: 日志系统：一条SQL更新语句是如何执行的？
-date: 2019/04/02 07:32:51
+date: 2019/04/02 07:33:51
 categories: 
   - [study]
 tags: 
@@ -11,6 +11,8 @@ tags:
 # 日志系统：一条SQL更新语句是如何执行的？
 
 与查询流程不一样的是，更新流程还涉及两个重要的日志模块：`redo log`（重做日志）和`binlog`（归档日志）。
+
+<!-- more -->
 
 ## 重要的日志模块：`redo log`
 
@@ -40,7 +42,7 @@ update T set c=c+1 where ID=2;
 
 针对这条 update 语句的执行过程如下图，途中浅色框表示在 InnoDB 内部执行的，深色框表示在执行器中执行的。
 
-![update-statement-execution-flow](resource/update-statement-execution-flow.png)
+![update-statement-execution-flow](https://raw.githubusercontent.com/N0nb0at/mysql-in-action-geektime/dev/resource/update-statement-execution-flow.png)
 
 最后三步将 redo log 的写入拆成了两个步骤：prepare 和 commit，这就是『两阶段提交』。
 

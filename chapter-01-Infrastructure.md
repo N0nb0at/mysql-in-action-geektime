@@ -10,7 +10,9 @@ tags:
 
 #  基础架构：一条SQL查询语句是如何执行的？
 
-![MySQL 逻辑架构图](resource/MySQL-architectural-sketch.png)
+![MySQL 逻辑架构图](https://raw.githubusercontent.com/N0nb0at/mysql-in-action-geektime/dev/resource/MySQL-architectural-sketch.png)
+
+<!-- more -->
 
 ## 连接器
 

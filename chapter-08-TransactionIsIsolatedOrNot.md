@@ -20,6 +20,8 @@ tags:
 1. 一个是 view，他是一个用查询语句定义的虚拟表，在调用的时候执行查询语句并生成结果。创建视图的语法是 `CREATE VIEW ...`，而它的查询方法与表一样；
 2. 另一个是 InnoDB 在实现 MVCC 时用到的一致性读视图，即 consistent read view，用于支持 RC（Read Conmitted，读提交）和 RR（Repeatable Read，可重复读）隔离级别的实现。
 
+<!-- more -->
+
 ## 『快照』在 MVCC 里是怎么工作的
 
 InnoDB 里面每个事务有一个唯一的事务 ID，叫做 transaction id。它是在事务开始的时候向 InnoDB 的事务系统申请的，是按申请顺序严格递增的。
@@ -36,7 +38,7 @@ InnoDB 为每个事务构造了一个数组，用来保存这个事务启动瞬�
 
 而数据版本的可见性规则，就是基于数据的 `row trx_id` 和这个一致性视图的对比结果得到的。
 
-![数据版本一致性规则](resource/data-version-visibility-rules.png)
+![数据版本一致性规则](https://raw.githubusercontent.com/N0nb0at/mysql-in-action-geektime/dev/resource/data-version-visibility-rules.png)
 
 这个视图数组把所有的 `row trx_id` 分成了几种不同的情况：
 
