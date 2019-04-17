@@ -2,7 +2,7 @@
 title: MySQL-06-全局锁和表锁 ：给表加个字段怎么有这么多阻碍？
 date: 2019/04/03 06:17:41
 categories: 
-  - [study]
+  - [MySQL-in-Action]
 tags: 
   - [geektime]
   - [MySQL]

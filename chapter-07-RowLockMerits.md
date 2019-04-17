@@ -2,7 +2,7 @@
 title: MySQL-07-行锁功过：怎么减少行锁对性能的影响
 date: 2019/04/08 01:26:29
 categories: 
-  - [study]
+  - [MySQL-in-Action]
 tags: 
   - [geektime]
   - [MySQL]

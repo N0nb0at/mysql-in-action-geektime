@@ -2,7 +2,7 @@
 title: MySQL-08-事务到底是隔离的还是不隔离的？
 date: 2019/04/08 06:59:11
 categories: 
-  - [study]
+  - [MySQL-in-Action]
 tags: 
   - [geektime]
   - [MySQL]

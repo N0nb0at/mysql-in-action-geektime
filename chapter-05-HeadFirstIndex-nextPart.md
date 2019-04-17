@@ -2,7 +2,7 @@
 title: MySQL-05-深入浅出索引（下）
 date: 2019/04/02 08:54:54
 categories: 
-  - [study]
+  - [MySQL-in-Action]
 tags: 
   - [geektime]
   - [MySQL]

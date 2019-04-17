@@ -2,7 +2,7 @@
 title: MySQL-04-深入浅出索引（上）
 date: 2019/04/02 07:35:51
 categories: 
-  - [study]
+  - [MySQL-in-Action]
 tags: 
   - [geektime]
   - [MySQL]

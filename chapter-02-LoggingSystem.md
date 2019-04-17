@@ -2,7 +2,7 @@
 title: MySQL-02-日志系统：一条SQL更新语句是如何执行的？
 date: 2019/04/02 07:33:51
 categories: 
-  - [study]
+  - [MySQL-in-Action]
 tags: 
   - [geektime]
   - [MySQL]

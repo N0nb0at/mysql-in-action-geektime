@@ -2,7 +2,7 @@
 title: MySQL-03-事务隔离：为什么你改了我还看不见？
 date: 2019/04/02 07:34:51
 categories: 
-  - [study]
+  - [MySQL-in-Action]
 tags: 
   - [geektime]
   - [MySQL]

@@ -2,7 +2,7 @@
 title: MySQL-09-普通索引和唯一索引，应该怎么选择？
 date: 2019/04/10 02:31:40
 categories: 
-  - [study]
+  - [MySQL-in-Action]
 tags: 
   - [geektime]
   - [MySQL]
