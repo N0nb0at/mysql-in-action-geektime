@@ -1,5 +1,5 @@
 ---
-title: 怎么给字符串字段加索引？
+title: MySQL-11-怎么给字符串字段加索引？
 date: 2019/04/29 18:53:52
 categories:
   - [MySQL-in-Action]
